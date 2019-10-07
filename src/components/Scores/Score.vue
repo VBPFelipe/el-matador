@@ -17,6 +17,7 @@ export default {
     props: {
             character_role: String,
             character_life: {
+                name: String,
                 type: Number,
                 default: 100
             }
